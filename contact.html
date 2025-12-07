@@ -2,33 +2,41 @@
 <html>
 <head>
     <title>Contact Us</title>
-    <style>
-        body { font-family: serif; }
-        nav ul { list-style: none; display: flex; gap: 20px; }
-        form { display: flex; flex-direction: column; width: 300px; }
-    </style>
-</head>
-<body>
-
-<nav>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="contact.html">Contact Us</a></li>
-    </ul>
-</nav>
-
-<h1>Contact Us</h1>
-
-<form>
-    <label>Email:</label>
-    <input type="email" required>
-
-    <label>Message:</label>
-    <textarea rows="4" required></textarea>
-
-    <button type="submit">Send</button>
-</form>
-
-</body>
-</html>
+        <link rel="stylesheet" href="styles.css">
+            <style>
+                    body { font-family: serif; }
+                            nav ul { list-style: none; display: flex; gap: 20px; }
+                                    form { display: flex; flex-direction: column; width: 300px; }
+                                        </style>
+                                        </head>
+                                        <body>
+                                        
+                                           <nav class="navbar">
+                                               <div class="logo">TravelBloom</div>
+                                               
+                                                   <input type="checkbox" id="toggle">
+                                                       <label for="toggle" class="menu-icon">&#9776;</label>
+                                                       
+                                                           <ul class="nav-links">
+                                                                   <li><a href="index.html">Home</a></li>
+                                                                           <li><a href="about.html">About Us</a></li>
+                                                                                   <li><a href="contact.html">Contact</a></li>
+                                                                                   </ul></nav>
+                                                                                   
+                                                                                   <section class="contact-section">
+                                                                                       <div class="contact-container">
+                                                                                               <h2>Contact Us</h2>
+                                                                                               
+                                                                                                       <form class="contact-form">
+                                                                                                                   <input type="text" placeholder="Your Name" required>
+                                                                                                                               <input type="email" placeholder="Your Email" required>
+                                                                                                                                           <textarea placeholder="Write your message..." rows="5" required></textarea>
+                                                                                                                                           
+                                                                                                                                                       <button type="submit">Send Message</button>
+                                                                                                                                                               </form>
+                                                                                                                                                                   </div>
+                                                                                                                                                                   </section>
+                                                                                                                                                                   
+                                                                                                                                                                   </body>
+                                                                                                                                                                   </html>
+                                                                                                                                                                   >
