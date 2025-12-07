@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelBloom</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav class="navbar">
+    <div class="logo">TravelBloom</div>
+
+    <input type="checkbox" id="toggle">
+    <label for="toggle" class="menu-icon">&#9776;</label>
+
+    <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+
+        <li>
+            <div class="nav-search">
+                <input id="searchInput" type="text" placeholder="Search...">
+                <button onclick="searchRecommendations()">Search</button>
+                <button onclick="clearResults()">Clear</button>
+            </div>
+        </li>
+    </ul>
+</nav>
+<header class="hero-section">
+    <div class="hero-content">
+        <h1>EXPLORE<br>DREAM<br>DESTINATION</h1>
+
+        <p>
+            It encourages exploration of unfamiliar territories, embracing diverse cultures 
+            and landscapes, while pursuing the desired destination that captivates the heart 
+            and ignites a sense of wonder.
+        </p>
+
+        <button class="book-btn">BOOK NOW</button>
+    </div>
+</header>
+    <script src="script.js"></script>
+</body>
+</html>
